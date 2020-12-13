@@ -1,0 +1,63 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: #0d1117;
+  color: #ffffff;
+}
+.heading {
+  color: #735bc1;
+  font-size: 45px;
+}
+.description {
+  /* color: #0366d6; */
+  color: #1da1f2;
+  width: 70%;
+  margin: auto;
+  padding: 0rem 0rem 2rem 0rem;
+}
+.buttons {
+  padding: 0.3rem 1rem;
+  border-radius: 10px;
+  border: none;
+  margin: 10px;
+  background-color: #00c647;
+  font-weight: bold;
+  font-size: 17px;
+  cursor: pointer;
+}
+.result {
+  list-style-type: none;
+  text-align: left;
+  margin: 1rem;
+  line-height: 0.5rem;
+}
+.result li {
+  margin: 2rem 0rem 0rem 0rem;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  padding: 0.3rem 2rem;
+}
+.result li h2 {
+  color: ;
+}
+.result li h4 {
+  color: #6e7681;
+}
+.result li a {
+  text-decoration: none;
+  color: #f85149;
+}
+footer {
+}
+footer .buttons a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+footer a {
+  text-decoration: none;
+  color: #f85149;
+  font-weight: bold;
+}
