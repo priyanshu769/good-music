@@ -13,7 +13,7 @@ const songs = {
   hindi: [
     {
       name: "Kadam",
-      artist: "Prteek Kuhad",
+      artist: "Prateek Kuhad",
       link:
         "https://open.spotify.com/track/6q7bXTv3yBedHblKRoC5uu?si=Lavsn1_VTFGmcUPAMOYRFA"
     },
@@ -106,7 +106,9 @@ export default function App() {
                 <h2>{song.name}</h2>
                 <h4>{song.artist}</h4>
                 <p>
-                  <a href="{song.link}">Listen Here</a>
+                  <a href={song.link} target="_blank" rel="dofollow">
+                    Listen Here
+                  </a>
                 </p>
               </li>
             );
