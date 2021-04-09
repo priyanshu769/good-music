@@ -84,7 +84,10 @@ export default function App() {
     <div className="App">
       <header>
         <h1 className="heading">
-          <span role="img">🎶</span>Good Music
+          <span role="img" aria-label="music">
+            🎶
+          </span>
+          Good Music
         </h1>
         <h2 className="description">
           Everyone needs a friend who can recommend some good music, I'll be
@@ -126,7 +129,11 @@ export default function App() {
           <a href={listaDePriyanshu}>lista de Priyanshu</a>
         </button>
         <p>
-          Made with <span role="img">❤️</span> but coded by{" "}
+          Made with{" "}
+          <span role="img" aria-label="heart">
+            ❤️
+          </span>{" "}
+          but coded by
           <a href={priyanshu}>Priyanshu</a>.
         </p>
       </footer>
