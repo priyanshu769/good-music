@@ -83,7 +83,9 @@ export default function App() {
   return (
     <div className="App">
       <header>
-        <h1 className="heading">🎶Good Music</h1>
+        <h1 className="heading">
+          <span role="img">🎶</span>Good Music
+        </h1>
         <h2 className="description">
           Everyone needs a friend who can recommend some good music, I'll be
           that one for you!
@@ -106,7 +108,7 @@ export default function App() {
                 <h2>{song.name}</h2>
                 <h4>{song.artist}</h4>
                 <p>
-                  <a href={song.link} target="_blank" rel="dofollow">
+                  <a href={song.link} target="_blank" rel="noopener noreferrer">
                     Listen Here
                   </a>
                 </p>
@@ -124,7 +126,8 @@ export default function App() {
           <a href={listaDePriyanshu}>lista de Priyanshu</a>
         </button>
         <p>
-          Made with ❤️ but coded by <a href={priyanshu}>Priyanshu</a>.
+          Made with <span role="img">❤️</span> but coded by{" "}
+          <a href={priyanshu}>Priyanshu</a>.
         </p>
       </footer>
     </div>
